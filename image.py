@@ -1,5 +1,6 @@
-import cv2
-import numpy as np
+import libraries
+np=libraries.np
+cv2=libraries.cv2
 
 img= cv2.imread("images/fishing.jpg")
 img=cv2.resize(img,(img.shape[1]//2,img.shape[0]//2))
